@@ -45,6 +45,7 @@ class ConsoleController < ActionController::Base
   protected
 
   def authenticate
+    return unless Iconsole::configuration.need_authentication
     require 'digest/md5'
 
     authenticate_or_request_with_http_basic do |username, password|

@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "iconsole"
   spec.version       = Iconsole::VERSION
   spec.platform      = Gem::Platform::RUBY
-  spec.authors       = ["dtthaison"]
-  spec.email         = "dtthaison@gmail.com"
+  spec.authors       = ["chipchipzero"]
+  spec.email         = "mr.khanh007@gmail.com"
   spec.summary       = "Debug tool"
   spec.description   = "Debug tool"
-  spec.homepage      = "https://github.com/dtthaison/iconsole"
+  spec.homepage      = "https://github.com/chipchipzero/iconsole"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

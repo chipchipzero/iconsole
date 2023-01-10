@@ -22,7 +22,7 @@ Run the iconsole generator to add inti file and mount routes:
 
     $ rails generate iconsole
 
-Then change config `username` and `password` at `config/initializers/iconsole.rb`
+Then change config `username`, `password` and `need_authentication` at `config/initializers/iconsole.rb`
 
 Default access url: `/iconsole`
 
